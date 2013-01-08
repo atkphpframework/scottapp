@@ -38,9 +38,9 @@
   // "mssql"   - Microsoft SQL Server
   $config_db["default"]["driver"]   = "mysqli";
   $config_db["default"]["host"]     = "localhost";
-  $config_db["default"]["db"]       = "atkdemo";
-  $config_db["default"]["user"]     = "demo";
-  $config_db["default"]["password"] = "demo";
+  $config_db["default"]["db"]       = "scott";
+  $config_db["default"]["user"]     = "scott";
+  $config_db["default"]["password"] = "tiger";
   
   /**
    * Cache table meta data and compiled meta node code.
