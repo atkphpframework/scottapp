@@ -1,0 +1,13 @@
+<?php
+
+  $en = array('menu_dept' => 'Manage departments',
+              'menu_emp' => 'Manage employees',
+              'scott_dept'=> 'Department',
+              'scott_emp' => 'Employee',
+              'deptno' => 'Department number',
+              'dname' => 'Name',
+              'loc' => 'Location',
+              'ename' => 'Name',
+              'emp_mgr' => 'Manager'
+              );
+?>
