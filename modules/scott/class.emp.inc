@@ -4,6 +4,8 @@
   useattrib("atkcurrencyattribute");
   useattrib("atknumberattribute");
   useattrib("atklistattribute");
+  
+  userelation("atkmanytoonerelation");
 
   class emp extends atkNode
   {
@@ -18,6 +20,8 @@
       $this->add(new atkDateAttribute("hiredate"));
       $this->add(new atkCurrencyAttribute("sal", AF_HIDE_LIST, 7, "USD"));
       $this->add(new atkNumberAttribute("comm", AF_HIDE_LIST, 7, 2));
+	  $this->add(new atkManyToOneRelation("deptno", "scott.dept", AF_SEARCHABLE));
+	  $this->add(new atkManyToOneRelation("mgr", "scott.emp", AF_SEARCHABLE));
       $this->setOrder("ename");
       $this->setIndex("ename");
       $this->setTable("emp");
