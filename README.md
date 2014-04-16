@@ -4,7 +4,7 @@ scottapp is a tutorial application developed in the article "Building PHP Applic
 
 To Get Started
 ==============
-Refer to either the article "Building PHP Applications using ATK" by Ivo Jansch, published in the [Oracle Technology Network](http://www.oracle.com/technetwork/articles/jansch-atk-085672.html).
+Refer to either the article "Building PHP Applications using ATK" by Ivo Jansch, published in the [Oracle Technology Network](http://www.oracle.com/technetwork/articles/jansch-atk-085672.html). A re-creation of the article with the permission of Ivo Jansch is included in the root directory, "Building PHP Applications Using the ATK Framework".
 
 Communication Channels
 ======================
